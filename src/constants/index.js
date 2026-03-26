@@ -147,6 +147,7 @@ const techStackIcons = [
 
 const expCards = [
   {
+<<<<<<< HEAD
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Pathology - Deployment & Setup",
@@ -201,6 +202,42 @@ const expCards = [
     title: "RPX-PLAI - AI Platform Enhancements",
     date: "February 2026 - Present",
     responsibilities: [],
+=======
+    review: "Jothiswaran brings creativity and technical expertise to the team, significantly improving our full-stack performance. His work has been invaluable in delivering scalable solutions and strict security.",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/logo1.png",
+    title: "Software Developer @ Hash Agile Technologies",
+    date: "Aug 2025 - Present",
+    responsibilities: [
+      "Architect and refine scalable, high-performance software solutions with a focus on reliability.",
+      "Drive feature enhancements through collaboration, performance tuning, and rigorous code reviews.",
+      "Maintain strict focus on code excellence, VAPT, and secure engineering.",
+    ],
+  },
+  {
+    review: "Jothiswaran’s contributions have been outstanding. He approaches challenges with a problem-solving mindset, always keeping the user and security in mind.",
+    imgPath: "/images/exp2.png",
+    logoPath: "/images/logo2.png",
+    title: "Associate Software Engineer",
+    date: "June 2024 - Aug 2025",
+    responsibilities: [
+      "Engineered intuitive, user-focused front-end components.",
+      "Strengthened backend services and API integrations.",
+      "Contributed to performance tuning, defect resolution, and Agile delivery cycles.",
+    ],
+  },
+  {
+    review: "Jothiswaran’s work during his internship brought a high level of quality and efficiency. He quickly grasped industry-grade standards and workflows.",
+    imgPath: "/images/exp3.png",
+    logoPath: "/images/logo3.png",
+    title: "Software Developer (Intern)",
+    date: "July 2023 - June 2024",
+    responsibilities: [
+      "Supported end-to-end development, testing, and debugging across full-stack modules.",
+      "Gained practical exposure to industry-grade development standards and tools.",
+      "Worked comprehensively with Agile workflows.",
+    ],
+>>>>>>> ce1357cb (Clean portfolio project)
   },
 ];
 
