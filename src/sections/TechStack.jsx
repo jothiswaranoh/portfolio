@@ -37,7 +37,6 @@ const TechStack = () => {
 
         {/* Replaced .tech-grid with standard custom grid to reduce massively oversized xl:h-[50vh] wrappers */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 md:gap-6 mt-16 px-5 md:px-0">
-
           {newSkillsData.map((skill, index) => (
             <div
               key={index}
@@ -59,7 +58,6 @@ const TechStack = () => {
               </div>
             </div>
           ))}
-
         </div>
       </div>
     </div>

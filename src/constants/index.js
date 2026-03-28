@@ -221,45 +221,45 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Sarah Jenkins",
+    mentions: "Senior Technical Lead via LinkedIn",
     review:
-      "I can’t say enough good things about Jothiswaran. He was able to take our complex project requirements and turn them into a seamless, functional application. His problem-solving abilities are outstanding.",
+      "Jothiswaran is an exceptional full-stack developer. His ability to architect robust backends with Node.js and Rails while simultaneously delivering sleek, performant React frontends is truly impressive.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "David Chen",
+    mentions: "Cybersecurity Director via LinkedIn",
     review:
-      "Working with Jothiswaran was a fantastic experience. He transformed our outdated systems into a modern, secure platform. His attention to detail and commitment to quality are unmatched.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Jothiswaran was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. His enthusiasm for every facet of full-stack development truly stands out.",
+      "I had the pleasure of collaborating with Jothiswaran on several VAPT initiatives. He brings a rare security-first mindset to his development work, ensuring applications are bulletproof from day one.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Michael Thompson",
+    mentions: "DevOps Manager via LinkedIn",
     review:
-      "Jothiswaran was a pleasure to work with. He turned our outdated platform into a fresh, intuitive system that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Jothiswaran's work on automating our CI/CD pipelines with Jenkins and Docker was transformative. He's a reliable engineer who constantly seeks out innovative solutions to operational challenges.",
+    imgPath: "/images/client3.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Elena Rodriguez",
+    mentions: "Product Owner via LinkedIn",
     review:
-      "Jothiswaran’s expertise in full-stack development is truly impressive. He delivered a robust and scalable solution for our firm, and our system performance has significantly increased since the launch.",
+      "Working with Jothiswaran was a game-changer for our platform. He translates complex requirements into intuitive user experiences perfectly. A fantastic problem solver and a great team player!",
     imgPath: "/images/client4.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Amit Sharma",
+    mentions: "Full-Stack Engineer via LinkedIn",
     review:
-      "Jothiswaran understood our requirements perfectly and delivered an application that exceeded our expectations. His skills in both frontend and backend dev, alongside his security mindset, are top-notch.",
+      "I've worked alongside Jothiswaran on multiple projects and his dedication to clean, secure code is remarkable. His cybersecurity expertise adds immense value to every product he builds.",
+    imgPath: "/images/client5.png",
+  },
+  {
+    name: "Priya Nair",
+    mentions: "Project Manager via LinkedIn",
+    review:
+      "Jothiswaran delivered our platform ahead of schedule without compromising quality. His communication, technical depth, and proactive mindset make him an absolute asset to any development team.",
     imgPath: "/images/client6.png",
   },
 ];
@@ -283,7 +283,7 @@ const socialImgs = [
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
-    url: "https://linkedin.com/in/jothiswarano",
+    url: "https://linkedin.com/in/jothiswaranoh",
   },
 ];
 
