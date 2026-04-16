@@ -220,6 +220,7 @@ const expLogos = [
 ];
 
 const testimonials = [
+  /*
   {
     name: "Sarah Jenkins",
     mentions: "Senior Technical Lead via LinkedIn",
@@ -227,6 +228,7 @@ const testimonials = [
       "Jothiswaran is an exceptional full-stack developer. His ability to architect robust backends with Node.js and Rails while simultaneously delivering sleek, performant React frontends is truly impressive.",
     imgPath: "/images/client1.png",
   },
+  */
   {
     name: "David Chen",
     mentions: "Cybersecurity Director via LinkedIn",

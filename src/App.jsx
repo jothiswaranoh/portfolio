@@ -8,9 +8,9 @@ import TechStack from "./sections/TechStack";
 import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
 import ShowcaseSection from "./sections/ShowcaseSection";
-import LogoShowcase from "./sections/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import Navbar from "./components/NavBar";
+import RolesShowcase from "./sections/RolesShowcase";
 import LinkedInFeed from "./sections/LinkedInFeed";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -52,12 +52,12 @@ const App = () => {
       <Navbar />
       <div className="overflow-hidden">
         <Hero id="hero" className="hero" />
-        <ShowcaseSection />
-        <LogoShowcase />
+        {/* <ShowcaseSection /> */}
+        <RolesShowcase />
         <FeatureCards />
-        <Experience />
+        {/* <Experience /> */}
         <TechStack />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <LinkedInFeed />
         <Contact />
         <Footer />

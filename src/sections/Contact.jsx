@@ -28,8 +28,6 @@ const Contact = () => {
           message: form.message,
           subject: `Portfolio Contact from ${form.name}`,
           replyto: form.email,
-          // 🔧 TESTING: change to jothiswaranoh517@gmail.com when ready
-          to: "mohdrazeen885@gmail.com",
         }),
       });
       const data = await response.json();

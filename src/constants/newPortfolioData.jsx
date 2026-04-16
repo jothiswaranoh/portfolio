@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaReact, FaPython, FaNodeJs, FaDocker, FaAws, FaGitAlt, FaLinux, FaMicroscope } from "react-icons/fa";
+import { FaReact, FaPython, FaNodeJs, FaDocker, FaAws, FaGitAlt, FaLinux, FaMicroscope } from "react-icons/fa6";
 import { SiRubyonrails, SiFastapi, SiMongodb, SiPostgresql } from "react-icons/si";
 import { TbDeviceMobile } from "react-icons/tb";
 import { Rocket, Bot, Dna, Smartphone, Lock, Zap, Mic, BrainCircuit, Link } from 'lucide-react';
