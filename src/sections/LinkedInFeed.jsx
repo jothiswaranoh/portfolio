@@ -3,20 +3,69 @@ import React, { useEffect, useRef } from "react";
 const posts = [
   {
     id: 1,
-    title: "Software Development at Hash Agile",
-    content:
-      "Excited to share my journey as a Software Developer at Hash Agile Technologies! Building scalable solutions, integrating modern frameworks, and ensuring top-notch application security through rigorous VAPT. #InnovateElevateInspire",
+    title: "Client Excellence Award – HashAgile Technologies 🏆",
+    content: "Honored to receive the Client Excellence Award at HashAgile Technologies. Grateful for the trust, the recognition, and a team that constantly pushes me to deliver quality. #HashAgile #Excellence #Recognition",
     image: "/images/post1.jpg",
     link: "https://www.linkedin.com/in/jothiswaranoh/",
   },
   {
-    id: 2,
-    title: "VAPT & Ethical Hacking",
-    content:
-      "Security is not just an afterthought; it's a prerequisite. Proud to leverage my skills as an Ethical Hacker and VAPT Specialist to proactively secure full-stack applications against emerging threats.",
-    image: "/images/post2.jpg",
+    id: 11,
+    title: "AI-Based Innovation Unleashed �",
+    content: "Excited to be the Resource Person for the Expert Talk on AI-Based Innovation Unleashed at Rathinam Technical Campus! This session focuses on how AI can move beyond ideas to create real-world societal impact. Grateful to share insights and practical perspectives with students and innovators. 📅 31st Jan 2026. Looking forward to an engaging discussion! 🙌 #AIInnovation #ExpertTalk",
+    image: "/images/post-ai-innovation.png",
     link: "https://www.linkedin.com/in/jothiswaranoh/",
   },
+  {
+    id: 12,
+    title: "Wrapping up 2025 with HashAgile 💙",
+    content: "☕ Chai. 🎉 Cheers. 💙 Cherished moments. That's how we wrapped up 2025. We came together for a heartfelt Virtual Year-End Break-Up meet. No slides. No formality. Just people. Hash Agile Technologies gifted the team an 11-day remote working window to slow down and recharge. Culture isn't about where we work from. It's about how we show up for each other. 2026 — we're ready! #HashAgileCulture #PeopleFirst",
+    image: "/images/post-hashagile-culture.png",
+    customClass: "suguna-zoom",
+    link: "https://www.linkedin.com/in/jothiswaranoh/",
+  },
+  {
+    id: 6,
+    title: "Bug Bounty Journey Update 🔐",
+    content: "Submitted an Open Redirect vulnerability on Bugcrowd (Atlassian). A P5, but a huge learning moment on demonstrating impact and chaining vulnerabilities. Every report brings me closer. #BugBounty #CyberSecurity",
+    image: "/images/post-bugbounty.jpg",
+    link: "https://www.linkedin.com/in/jothiswaranoh/",
+  },
+  {
+    id: 7,
+    title: "Chief Guest – Suguna College of Engineering ✨",
+    content: "Honored to be invited as the Chief Guest at Suguna College of Engineering. I truly believe that when you run with love towards something, it never fails — because it is love that drives success. ❤️ It was inspiring to interact with young, bright minds... A heartfelt thanks to Suguna College of Engineering and Hashagile. 🙏 #Leadership #Mentorship #LearningJourney",
+    image: "/images/post-suguna.png",
+    customClass: "suguna-zoom",
+    link: "https://www.linkedin.com/in/jothiswaranoh/",
+  },
+  {
+    id: 2,
+    title: "From Curiosity to a Full Security Report �",
+    content: "Conducted in-depth security research on Xsolla's public infrastructure — exploring API enumeration, OAuth flow testing, and information disclosure patterns. Compiled a detailed penetration report. Every finding, accepted or not, sharpens the craft. #BugBounty #CyberSecurity #EthicalHacking",
+    image: "/images/post-xsolla.png",
+    link: "https://www.linkedin.com/in/jothiswaranoh/",
+  },
+  {
+    id: 10,
+    title: "Reflecting on my Cybersecurity Roots 🔐",
+    content: "Lately, while working deeply across web and mobile development, I almost forgot a part of my journey — I started out as a cybersecurity researcher. Today, I found an old bug-report response from the Jio Security Team. A powerful reminder that our roots are still a big part of who we are. Feeling inspired to slowly reconnect with security research! 🚀 #CyberSecurity #BugBounty #DeveloperLife",
+    image: "/images/jothis.jpg",
+    link: "https://www.linkedin.com/in/jothiswaranoh/",
+  },
+  {
+    id: 8,
+    title: "Mumbai Hacks Hackathon",
+    content: "Attended Mumbai Hacks and tackled a real-world financial problem as a team. An incredible experience of learning, collaboration, and innovation — thanks to Hash Agile for the support! #MumbaiHacks #Hackathon #FinTech",
+    image: "/images/post-mumbai.jpg",
+    link: "https://www.linkedin.com/in/jothiswaranoh/",
+  },
+  {
+    id: 9,
+    title: "Development Foundations with GitHub",
+    content: "Spoke on 'Development Foundations with GitHub' at Rathinam Technical Campus. Focused on empowering students to think independently — not just use tools, but understand them. #Git #GitHub #TechEducation #Mentorship",
+    image: "/images/post-github.jpg",
+    link: "https://www.linkedin.com/in/jothiswaranoh/",
+  }
 ];
 
 const testimonials = [
@@ -96,7 +145,11 @@ const LinkedInFeed = () => {
           {posts.map((post) => (
             <div key={post.id} className="glass-card post-card">
               <div className="post-image-wrapper">
-                <img src={post.image} alt={post.title} className="post-image" />
+                <img
+                  src={post.image}
+                  alt={post.title}
+                  className={`post-image ${post.customClass || ''}`}
+                />
                 <div className="post-overlay">
                   <a
                     href={post.link}
@@ -117,7 +170,6 @@ const LinkedInFeed = () => {
           ))}
         </div>
 
-        {/* COMMENTS SECTION */}
         <div className="comments-section">
           <h3 className="comments-title">
             <span className="text-gradient">Community Feedback</span>
@@ -372,6 +424,14 @@ const LinkedInFeed = () => {
 
 .post-card:hover .post-image {
   transform: scale(1.08);
+}
+
+.suguna-zoom {
+  transform: scale(1.7);
+}
+
+.post-card:hover .suguna-zoom {
+  transform: scale(1.8);
 }
 
 .post-overlay {
